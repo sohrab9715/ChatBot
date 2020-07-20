@@ -1,0 +1,107 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+.bg 
+{
+    margin-top: -10px !important;
+}
+.chat_container
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 32%;
+    height: 72%;
+    background-color: #e2e2e2;
+   
+   
+}
+.profile
+{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    height: 48px;
+    background-color: rgb(66, 128, 170);
+    margin-bottom: 20px;
+}
+.question
+{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 48px;
+    background-color: #dadada       ;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    margin-left: 80px;
+}
+.answer
+{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.089);
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.answer p
+{
+    padding-left: 22px;
+}
+.user_icon
+{
+    padding: 20px;
+   font-size: 28px !important;
+}
+.profile h2
+{
+    
+    font-size: 17px;
+    font-weight: 450;
+}
+.btnclose
+{
+    cursor: pointer;
+    padding-left: 260px;
+    font-size: 20px !important;
+}
+.typing
+{
+    position: fixed;
+ margin-top: 55%;
+    height: 40px;
+    background-color: rgb(66, 128, 170);
+   
+}
+form input[type='text']
+{
+    width: 350px;
+    height: 40px;
+    border:1px solid rgb(66, 128, 170);
+    padding: 0px 20px;
+   
+}
+form input[type='submit']
+{
+    cursor: pointer;
+    color: #fff;
+    margin-left:-4px;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(66, 128, 170);
+    border: none;
+   
+}
